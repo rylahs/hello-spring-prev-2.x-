@@ -11,4 +11,23 @@ public class MemberController {
     public MemberController(MemberService memberService) {
         this.memberService = memberService;
     }
+//    /**
+//     * 필드 주입
+//     */
+//    @Autowired private final MemberService memberService;
+//
+////    @Autowired
+////    public MemberController(MemberService memberService) {
+////        this.memberService = memberService;
+////    }
+//    /**
+//     * 세터 주입
+//     */
+//    private MemberService memberService;
+//    @Autowired
+//    public void setMemberService(MemberService memberService) {
+//        this.memberService = memberService;
+//    }
+
+
 }
